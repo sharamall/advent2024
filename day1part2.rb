@@ -11,6 +11,6 @@ file.each_line do |l|
 end
 sim = 0
 a.each do |arg|
-  sim += arg * b.count { |it| it == arg}
+  sim += arg * b.count { |it| it == arg }
 end
 puts sim
